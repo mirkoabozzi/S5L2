@@ -401,6 +401,7 @@ footer a {
   position: fixed;
   bottom: 80px;
   right: 20px;
+  color: #00a0c6;
 }
 #addIcon {
   width: 50px;
@@ -411,6 +412,7 @@ footer a {
   position: fixed;
   bottom: 140px;
   right: 20px;
+  color: #00a0c6;
 }
 #topIcon {
   width: 50px;
