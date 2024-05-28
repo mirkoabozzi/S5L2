@@ -363,16 +363,6 @@ footer a {
   color: fuchsia;
 }
 
-@media screen and (min-width: 1200px) {
-  header,
-  main,
-  footer {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 @media print {
   body {
     font-size: 24px;
@@ -445,4 +435,26 @@ footer a {
 
 section p {
   margin-top: 1.5rem;
+}
+
+@media screen and (min-width: 1200px) {
+  header,
+  main,
+  footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #calendar {
+    bottom: 20px;
+    right: 80px;
+  }
+  #addIcon {
+    bottom: 20px;
+    right: 140px;
+  }
+  #topIcon {
+    bottom: 20px;
+    right: 20px;
+  }
 }
