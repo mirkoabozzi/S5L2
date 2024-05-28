@@ -446,15 +446,11 @@ section p {
     margin-right: auto;
   }
   #calendar {
-    bottom: 20px;
-    right: 80px;
+    top: 180px;
+    right: 20px;
   }
   #addIcon {
-    bottom: 20px;
-    right: 140px;
-  }
-  #topIcon {
-    bottom: 20px;
+    top: 120px;
     right: 20px;
   }
 }
