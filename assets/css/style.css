@@ -402,7 +402,17 @@ footer a {
     display: none;
   }
 }
-#icons {
+#calendar {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.548);
+  border: 2px solid white;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+}
+#addIcon {
   width: 50px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.548);
@@ -411,13 +421,6 @@ footer a {
   position: fixed;
   bottom: 140px;
   right: 20px;
-}
-#calendar {
-  width: 50px;
-  height: 50px;
-  background-color: rgba(255, 255, 255, 0.548);
-  border: 2px solid white;
-  border-radius: 10px;
 }
 #topIcon {
   width: 50px;
